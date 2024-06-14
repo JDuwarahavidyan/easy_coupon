@@ -1,4 +1,4 @@
-# easy_coupon_1
+# easy_coupon
 
 A new Flutter project.
 

@@ -12,15 +12,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, 
       title: 'Flutter Simple App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        
       ),
       initialRoute: '/',
       routes: {
         '/': (context) => const SplashScreen(),
         '/get-started': (context) => const GetStarted(),
         '/login': (context) => const LoginPage(),
+
+        
       },
     );
   }

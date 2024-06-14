@@ -11,10 +11,10 @@ class LoginPage extends StatelessWidget {
         children: [
           // Background image
           Positioned(
-            top: -50,
+            top: -300,
             bottom: 10,
-            right: -1,
-            left: -150,
+            right: -20,
+            left: -100,
             child: Image.asset(
               'assets/nn.jpg',
               fit: BoxFit.cover,
@@ -40,6 +40,8 @@ class LoginPage extends StatelessWidget {
               ),
               
             ),
+
+            
           ),
         ],
       ),
